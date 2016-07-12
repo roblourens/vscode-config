@@ -1,0 +1,10 @@
+{
+	"diffEditor.renderSideBySide": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+
+    "files.trimTrailingWhitespace": true,
+
+    "editor.fontSize": 13,
+    "editor.cursorBlinking": "solid",
+    "editor.wrappingColumn": 1000
+}
