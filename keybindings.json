@@ -1,7 +1,12 @@
 [
     { "key": "ctrl+alt+left", "command": "workbench.action.focusPreviousGroup" },
     { "key": "ctrl+alt+right", "command": "workbench.action.focusNextGroup" },
-    { "key": "ctrl+k ctrl+enter", "command": "workbench.action.pinEditor" },
+    { "key": "ctrl+k ctrl+enter", "command": "workbench.action.keepEditor" },
 
-    { "key": "ctrl+k ctrl+b", "command": "workbench.action.tasks.terminate" }
+    { "key": "ctrl+k ctrl+b", "command": "workbench.action.tasks.terminate" },
+
+    { "key": "ctrl+alt+d", "command": "workbench.action.git.globalOpenChange",
+        "when": "editorTextFocus" },
+    { "key": "ctrl+alt+shift+d", "command": "workbench.action.git.globalOpenFile",
+        "when": "editorTextFocus" }
 ]
