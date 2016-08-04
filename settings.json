@@ -8,5 +8,7 @@
 
     "editor.fontSize": 13,
     "editor.cursorBlinking": "solid",
-    "editor.wrappingColumn": 1000
+    "editor.wrappingColumn": 1000,
+
+    "editor.snippetSuggestions": "bottom"
 }
