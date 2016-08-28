@@ -2,6 +2,7 @@
     { "key": "ctrl+alt+left", "command": "workbench.action.focusPreviousGroup" },
     { "key": "ctrl+alt+right", "command": "workbench.action.focusNextGroup" },
     { "key": "ctrl+k ctrl+enter", "command": "workbench.action.keepEditor" },
+    { "key": "cmd+k cmd+enter", "command": "workbench.action.keepEditor" },
 
     { "key": "ctrl+k ctrl+b", "command": "workbench.action.tasks.terminate" },
 
