@@ -12,5 +12,13 @@
         "when": "editorTextFocus" },
 
     { "key": "cmd+y", "command": "redo",
-        "when": "editorTextFocus && !editorReadonly" }
+        "when": "editorTextFocus && !editorReadonly" },
+
+    { "key": "cmd+0", "command": "workbench.action.zoomReset",
+        "when": "editorTextFocus" },
+
+    { "key": "cmd+r", "command": "workbench.action.debug.restart",
+        "when": "inDebugMode" },
+
+    { "key": "cmd+shift+g", "command": "workbench.view.git" }
 ]
