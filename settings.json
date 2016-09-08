@@ -6,9 +6,11 @@
 
     "workbench.editor.showTabs": false,
 
-    "editor.fontSize": 13,
     "editor.cursorBlinking": "solid",
     "editor.wrappingColumn": 1000,
 
-    "editor.snippetSuggestions": "bottom"
+    "editor.snippetSuggestions": "bottom",
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
 }
