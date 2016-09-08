@@ -8,8 +8,8 @@
 
     { "key": "ctrl+alt+d", "command": "workbench.action.git.globalOpenChange",
         "when": "editorTextFocus" },
-    { "key": "ctrl+alt+shift+d", "command": "workbench.action.git.globalOpenFile",
-        "when": "editorTextFocus" },
+    { "key": "ctrl+alt+d", "command": "workbench.action.git.globalOpenFile",
+        "when": "textCompareEditorVisible" },
 
     { "key": "cmd+y", "command": "redo",
         "when": "editorTextFocus && !editorReadonly" },
@@ -20,5 +20,12 @@
     { "key": "cmd+r", "command": "workbench.action.debug.restart",
         "when": "inDebugMode" },
 
-    { "key": "cmd+shift+g", "command": "workbench.view.git" }
+    { "key": "cmd+shift+g", "command": "workbench.view.git" },
+
+    { "key": "f8", "command": "workbench.action.debug.continue",
+        "when": "inDebugMode" },
+    { "key": "f7", "command": "editor.action.marker.next",
+        "when": "editorFocus && !editorReadonly" },
+    { "key": "shift+f7", "command": "editor.action.marker.prev",
+        "when": "editorFocus && !editorReadonly" }
 ]
