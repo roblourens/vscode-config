@@ -27,5 +27,10 @@
     { "key": "f7", "command": "editor.action.marker.next",
         "when": "editorFocus && !editorReadonly" },
     { "key": "shift+f7", "command": "editor.action.marker.prev",
-        "when": "editorFocus && !editorReadonly" }
+        "when": "editorFocus && !editorReadonly" },
+
+    { "key": "ctrl+`", "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus" },
+    { "key": "ctrl+`", "command": "workbench.action.openLastEditorInGroup",
+        "when": "terminalFocus" }
 ]
