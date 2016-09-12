@@ -31,6 +31,6 @@
 
     { "key": "ctrl+`", "command": "workbench.action.terminal.focus",
         "when": "!terminalFocus" },
-    { "key": "ctrl+`", "command": "workbench.action.openLastEditorInGroup",
+    { "key": "ctrl+`", "command": "workbench.action.focusFirstEditorGroup",
         "when": "terminalFocus" }
 ]
