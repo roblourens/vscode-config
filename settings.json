@@ -12,5 +12,9 @@
     "editor.snippetSuggestions": "bottom",
 
     "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.openRecent"
+    ]
 }
