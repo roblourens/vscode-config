@@ -1,0 +1,16 @@
+{
+	 "import": {
+		"prefix": "impr",
+		"body": [
+			"import {$2} from '$1';"
+		],
+		"description": "import"
+	},
+	"fn call": {
+		"prefix": "fn",
+		"body": [
+			"($1)$2"
+		],
+		"description": "()"
+	}
+}
