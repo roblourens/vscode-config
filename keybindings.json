@@ -17,9 +17,6 @@
     { "key": "cmd+0", "command": "workbench.action.zoomReset",
         "when": "editorTextFocus" },
 
-    { "key": "cmd+r", "command": "workbench.action.debug.restart",
-        "when": "inDebugMode" },
-
     { "key": "cmd+shift+g", "command": "workbench.view.git" },
 
     { "key": "f8", "command": "workbench.action.debug.continue",
@@ -32,5 +29,9 @@
     { "key": "ctrl+`", "command": "workbench.action.terminal.focus",
         "when": "!terminalFocus" },
     { "key": "ctrl+`", "command": "workbench.action.focusActiveEditorGroup",
-        "when": "terminalFocus" }
+        "when": "terminalFocus" },
+
+    { "key": "cmd+r", "command": "workbench.action.openRecent" },
+
+    { "key": "cmd+f9", "command": "editor.debug.action.conditionalBreakpoint" }
 ]

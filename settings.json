@@ -15,6 +15,26 @@
     "editor.fontLigatures": true,
 
     "terminal.integrated.commandsToSkipShell": [
+        // Defaults
+        "editor.action.toggleTabFocusMode",
+        "workbench.action.quickOpen",
+        "workbench.action.showCommands",
+        "workbench.action.terminal.clear",
+        "workbench.action.terminal.copySelection",
+        "workbench.action.terminal.focus",
+        "workbench.action.terminal.focusNext",
+        "workbench.action.terminal.focusPrevious",
+        "workbench.action.terminal.kill",
+        "workbench.action.terminal.new",
+        "workbench.action.terminal.paste",
+        "workbench.action.terminal.runSelectedText",
+        "workbench.action.terminal.scrollDown",
+        "workbench.action.terminal.scrollDownPage",
+        "workbench.action.terminal.scrollUp",
+        "workbench.action.terminal.scrollUpPage",
+        "workbench.action.terminal.toggleTerminal",
+
+        // Additions
         "workbench.action.openRecent",
         "workbench.action.debug.start",
         "workbench.action.debug.run",
@@ -25,6 +45,18 @@
         "workbench.action.debug.stepOver",
         "workbench.action.debug.stop",
         "workbench.action.debug.stepOver",
-        "workbench.action.closeMessages"
-    ]
+        "workbench.action.closeMessages",
+        "workbench.action.tasks.terminate"
+    ],
+
+    "tslint.run": "onSave",
+    "tslint.enable": false,
+
+    "editor.wordBasedSuggestions": false,
+
+    "files.autoSave": "onFocusChange",
+    "typescript.check.tscVersion": false,
+    "typescript.check.workspaceVersion": false,
+
+    "extensions.autoUpdate": true
 }
