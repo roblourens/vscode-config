@@ -46,7 +46,9 @@
         "workbench.action.debug.stop",
         "workbench.action.debug.stepOver",
         "workbench.action.closeMessages",
-        "workbench.action.tasks.terminate"
+        "workbench.action.tasks.terminate",
+        "workbench.action.openNextRecentlyUsedEditorInGroup",
+        "workbench.action.openPreviousRecentlyUsedEditorInGroup"
     ],
 
     "tslint.run": "onSave",
