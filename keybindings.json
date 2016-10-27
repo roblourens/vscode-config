@@ -84,5 +84,10 @@
         "key": "cmd+alt+i",
         "command": "workbench.action.toggleDevTools",
         "when": "editorTextFocus"
+    },
+    
+    {
+        "key": "cmd+m",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
