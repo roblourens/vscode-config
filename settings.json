@@ -60,5 +60,16 @@
     "typescript.check.tscVersion": false,
     "typescript.check.workspaceVersion": false,
 
-    "extensions.autoUpdate": true
+    "extensions.autoUpdate": true,
+
+    "go.gopath": "/Users/roblou/code/go",
+
+    "npm-intellisense.scanDevDependencies": true,
+
+    "vscode-stocks.stockSymbols": [
+        "msft"
+    ],
+    "vscode-stocks.useColors": true,
+
+    "guides.sendUsagesAndStats": false
 }
