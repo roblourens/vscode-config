@@ -71,5 +71,7 @@
     ],
     "vscode-stocks.useColors": true,
 
-    "guides.sendUsagesAndStats": false
+    "guides.sendUsagesAndStats": false,
+
+    "terminal.integrated.shellArgs.osx": ["-l"]
 }
