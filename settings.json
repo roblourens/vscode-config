@@ -6,7 +6,7 @@
 
     "workbench.editor.showTabs": false,
 
-    "editor.cursorBlinking": "solid",
+    "editor.cursorBlinking": "phase",
     "editor.wrappingColumn": 1000,
 
     "editor.snippetSuggestions": "bottom",
@@ -73,5 +73,16 @@
 
     "guides.sendUsagesAndStats": false,
 
-    "terminal.integrated.shellArgs.osx": ["-l"]
+    "terminal.integrated.shellArgs.osx": ["-l"],
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }],
+
+    "editor.renderIndentGuides": true,
+
+    "files.hotExit": true,
+    "workbench.activityBar.visible": false
 }
