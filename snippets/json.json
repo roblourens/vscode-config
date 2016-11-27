@@ -2,7 +2,7 @@
 	"Print to console": {
 		"prefix": "debug",
 		"body": [
-			"\"debugServer\": \"4712$1\","
+			"\"debugServer\": 4712$1,"
 		],
 		"description": "Insert debugServer statement"
 	}
