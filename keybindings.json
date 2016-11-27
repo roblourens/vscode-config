@@ -85,9 +85,14 @@
         "command": "workbench.action.toggleDevTools",
         "when": "editorTextFocus"
     },
-    
+
     {
         "key": "cmd+m",
         "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+shift+cmd+t",
+        "command": "esQuotes.transformToTemplateString",
+        "when": "editorTextFocus"
     }
 ]
