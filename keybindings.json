@@ -97,12 +97,12 @@
     },
 
     {
-        "key": "ctrl+left",
+        "key": "ctrl+alt+left",
         "command": "subwordNavigation.cursorSubwordLeft",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+right",
+        "key": "ctrl+alt+right",
         "command": "subwordNavigation.cursorSubwordRight",
         "when": "editorTextFocus"
     },
