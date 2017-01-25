@@ -6,7 +6,7 @@
 
     "workbench.editor.showTabs": false,
 
-    "editor.cursorBlinking": "phase",
+    "editor.cursorBlinking": "solid",
     "editor.wrappingColumn": 1000,
 
     "editor.snippetSuggestions": "bottom",
@@ -71,18 +71,24 @@
     ],
     "vscode-stocks.useColors": true,
 
-    "guides.sendUsagesAndStats": false,
-
     "terminal.integrated.shellArgs.osx": ["-l"],
-
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j", "j"],
-            "after": ["<Esc>"]
-        }],
 
     "editor.renderIndentGuides": true,
 
-    "files.hotExit": true,
-    "workbench.activityBar.visible": false
+    "files.hotExit": "onExitAndWindowClose",
+    "workbench.activityBar.visible": true,
+
+    "gitlens.statusBar.enabled": false,
+    "gitlens.codeLens.visibility": "ondemand",
+    "workbench.welcome.enabled": true,
+	"security.workspacesTrustedToSpecifyExecutables": {
+		"/Users/roblou/code/vscode-node-debug2/testapp": true,
+		"/Users/roblou/code/vscode-chrome-debug": true,
+		"/Users/roblou/code/vscode-node-debug2": true,
+		"/Users/roblou/code/vscode-go": true,
+		"/Users/roblou/code/vscode": true
+	},
+
+    "window.openFilesInNewWindow": "off",
+    "window.openFoldersInNewWindow": "on"
 }
