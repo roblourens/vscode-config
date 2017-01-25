@@ -90,5 +90,7 @@
 	},
 
     "window.openFilesInNewWindow": "off",
-    "window.openFoldersInNewWindow": "on"
+    "window.openFoldersInNewWindow": "on",
+
+    "debug.inlineValues": true
 }
