@@ -14,8 +14,7 @@
     { "key": "cmd+y", "command": "redo",
         "when": "editorTextFocus && !editorReadonly" },
 
-    { "key": "cmd+0", "command": "workbench.action.zoomReset",
-        "when": "editorTextFocus" },
+    { "key": "cmd+0", "command": "workbench.action.zoomReset" },
 
     { "key": "cmd+shift+g", "command": "workbench.view.git" },
 
@@ -131,5 +130,16 @@
         "key": "cmd+shift+j",
         "command": "workbench.action.focusPanel",
         "when": "editorTextFocus"
+    },
+
+    { "key": "cmd+p", "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen" },
+    { "key": "cmd+shift+p", "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen" },
+
+    {
+        "key": "ctrl+\\",
+        "command": "editor.action.insertSnippet",
+        "when": ""
     }
 ]
