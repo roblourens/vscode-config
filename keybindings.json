@@ -39,12 +39,12 @@
         "command": "workbench.action.compareEditor.nextChange",
         "when": "textCompareEditorVisible"
     },
-
     {
         "key": "ctrl+up",
         "command": "workbench.action.compareEditor.previousChange",
         "when": "textCompareEditorVisible"
-    },{
+    },
+    {
         "key": "shift+cmd+s",
         "command": "workbench.action.git.stage",
         "when": "editorTextFocus"
@@ -141,5 +141,16 @@
         "key": "ctrl+\\",
         "command": "editor.action.insertSnippet",
         "when": ""
+    },
+
+    {
+        "key": "cmd+;",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+;",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
     }
 ]
