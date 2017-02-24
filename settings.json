@@ -85,7 +85,7 @@
     "editor.renderIndentGuides": true,
 
     "files.hotExit": "onExitAndWindowClose",
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
 
     "gitlens.statusBar.enabled": false,
     "gitlens.codeLens.visibility": "ondemand",
@@ -98,5 +98,10 @@
 
     "workbench.editor.tabCloseButton": "left",
 
-    "window.newWindowDimensions": "inherit"
+	"window.newWindowDimensions": "inherit",
+    "workbench.iconTheme": "vs-seti",
+    "editor.wordWrap": false,
+    "editor.minimap.enabled": true,
+	"window.title": "${dirty} ${activeEditorName}${separator}${rootName}",
+	"window.zoomLevel": 0
 }

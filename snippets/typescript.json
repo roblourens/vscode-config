@@ -21,7 +21,7 @@
 	"log value": {
 		"prefix": "lvl",
 		"body": "console.log(`$1: \\${$1}`);",
-		"description": "log the selected value"
+		"description": "log a labeled value"
 	},
 	"timed log": {
 		"prefix": "time",
