@@ -87,8 +87,6 @@
     "files.hotExit": "onExitAndWindowClose",
     "workbench.activityBar.visible": false,
 
-    "gitlens.statusBar.enabled": false,
-    "gitlens.codeLens.visibility": "ondemand",
     "workbench.welcome.enabled": true,
 
     "window.openFilesInNewWindow": "off",
