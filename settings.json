@@ -100,8 +100,16 @@
 
 	"window.newWindowDimensions": "inherit",
     "workbench.iconTheme": "vs-seti",
-    "editor.wordWrap": false,
+    "editor.wordWrap": "off",
     "editor.minimap.enabled": true,
 	"window.title": "${dirty} ${activeEditorName}${separator}${rootName}",
-	"window.zoomLevel": 0
+    "window.zoomLevel": 0,
+
+    "terminal.integrated.scrollback": 10000,
+
+    "editor.dragAndDrop": true,
+
+    "explorer.openEditors.visible": 0,
+
+    "editor.formatOnPaste": true
 }
