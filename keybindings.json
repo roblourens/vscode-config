@@ -152,5 +152,42 @@
         "key": "shift+cmd+;",
         "command": "cursorLeft",
         "when": "editorTextFocus"
+    },
+
+    {
+        "key": "ctrl+f12",
+        "command": "editor.action.goToTypeDefinition",
+        "when": "editorTextFocus"
+    },
+
+    {
+        "key": "cmd+shift+y",
+        "command": "workbench.action.output.toggleOutput"
+    },
+    {
+        "key": "cmd+shift+u",
+        "command": "workbench.debug.action.toggleRepl"
+    },
+
+    {
+        "key": "ctrl+shift+x",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
     }
 ]

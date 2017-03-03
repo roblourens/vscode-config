@@ -76,7 +76,8 @@
     "npm-intellisense.scanDevDependencies": true,
 
     "vscode-stocks.stockSymbols": [
-        "msft"
+        "msft",
+        "snap"
     ],
     "vscode-stocks.useColors": true,
 
@@ -92,14 +93,19 @@
     "window.openFilesInNewWindow": "off",
     "window.openFoldersInNewWindow": "on",
 
-    "debug.inlineValues": true,
+    // "debug.inlineValues": true,
 
     "workbench.editor.tabCloseButton": "left",
 
 	"window.newWindowDimensions": "inherit",
-    "workbench.iconTheme": "vs-seti",
+	"workbench.iconTheme": "seti",
     "editor.wordWrap": "off",
     "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "[Log]": {
+        "editor.minimap.enabled": false
+    },
+
 	"window.title": "${dirty} ${activeEditorName}${separator}${rootName}",
     "window.zoomLevel": 0,
 
@@ -109,5 +115,6 @@
 
     "explorer.openEditors.visible": 0,
 
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "zap.enable": true
 }
