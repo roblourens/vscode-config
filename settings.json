@@ -1,14 +1,12 @@
 {
-	"diffEditor.renderSideBySide": false,
-	"diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.ignoreTrimWhitespace": false,
 
     "files.trimTrailingWhitespace": true,
 
     "workbench.editor.showTabs": false,
 
     "editor.cursorBlinking": "solid",
-
-    "editor.snippetSuggestions": "bottom",
 
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -76,8 +74,7 @@
     "npm-intellisense.scanDevDependencies": true,
 
     "vscode-stocks.stockSymbols": [
-        "msft",
-        "snap"
+        "msft"
     ],
     "vscode-stocks.useColors": true,
 
@@ -97,8 +94,8 @@
 
     "workbench.editor.tabCloseButton": "left",
 
-	"window.newWindowDimensions": "inherit",
-	"workbench.iconTheme": "seti",
+    "window.newWindowDimensions": "inherit",
+    "workbench.iconTheme": "seti",
     "editor.wordWrap": "off",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
@@ -106,7 +103,7 @@
         "editor.minimap.enabled": false
     },
 
-	"window.title": "${dirty} ${activeEditorName}${separator}${rootName}",
+    "window.title": "${dirty} ${activeEditorName}${separator}${rootName}",
     "window.zoomLevel": 0,
 
     "terminal.integrated.scrollback": 10000,
@@ -116,5 +113,8 @@
     "explorer.openEditors.visible": 0,
 
     "editor.formatOnPaste": true,
-    "zap.enable": true
+
+    "search.useIgnoreFilesByDefault": false,
+
+    "typescript.referencesCodeLens.enabled": true
 }

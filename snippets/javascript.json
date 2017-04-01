@@ -1,0 +1,17 @@
+{
+	"log": {
+		"prefix": "log",
+		"body": "console.log(`$1`);",
+		"description": "console.log"
+	},
+	"log value": {
+		"prefix": "lvl",
+		"body": "console.log(`$1: \\${$1}`);",
+		"description": "log a labeled value"
+	},
+	"timed log": {
+		"prefix": "time",
+		"body": "console.log(`\\${Date.now()/1000}: $1`);",
+		"description": "console.log + the time"
+	}
+}

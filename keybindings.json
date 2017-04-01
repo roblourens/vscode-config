@@ -20,6 +20,10 @@
 
     { "key": "f8", "command": "workbench.action.debug.continue",
         "when": "inDebugMode" },
+    { "key": "f5", "command": "-workbench.action.debug.continue",
+        "when": "inDebugMode" },
+    { "key": "f5", "command": "workbench.action.debug.start" },
+
     { "key": "f7", "command": "editor.action.marker.next",
         "when": "editorFocus && !editorReadonly" },
     { "key": "shift+f7", "command": "editor.action.marker.prev",
@@ -43,32 +47,6 @@
         "key": "ctrl+up",
         "command": "workbench.action.compareEditor.previousChange",
         "when": "textCompareEditorVisible"
-    },
-    {
-        "key": "shift+cmd+s",
-        "command": "workbench.action.git.stage",
-        "when": "editorTextFocus"
-    },
-
-    {
-        "key": "alt+down",
-        "command": "-indentation-level-movement.moveDown",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+up",
-        "command": "-indentation-level-movement.moveUp",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+down",
-        "command": "indentation-level-movement.moveDown",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+up",
-        "command": "indentation-level-movement.moveUp",
-        "when": "editorTextFocus"
     },
 
     { "key": "shift+cmd+]",           "command": "-spotify.next" },
@@ -189,5 +167,17 @@
         "key": "ctrl+shift+n",
         "command": "workbench.action.terminal.new",
         "when": "terminalFocus"
+    },
+
+    {
+        "key": "cmd+8",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+
+    {
+        "key": "cmd+k cmd+m",
+        "command": "workbench.action.editor.changeLanguageMode",
+        "when": "editorTextFocus"
     }
 ]
