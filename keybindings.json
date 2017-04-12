@@ -179,5 +179,18 @@
         "key": "cmd+k cmd+m",
         "command": "workbench.action.editor.changeLanguageMode",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+8",
+        "command": "editor.debug.action.showDebugHover",
+        "when": "editorTextFocus && inDebugMode"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.debug.viewlet.action.disableAllBreakpoints"
+    },
+    {
+        "key": "ctrl+shift+cmd+r",
+        "command": "workbench.debug.viewlet.action.enableAllBreakpoints"
     }
 ]

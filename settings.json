@@ -1,4 +1,7 @@
 {
+    "window.openFoldersInNewWindow": "on",
+    "window.openFilesInNewWindow": "off",
+
     "diffEditor.renderSideBySide": false,
     "diffEditor.ignoreTrimWhitespace": false,
 
@@ -65,13 +68,10 @@
 
     "files.autoSave": "onFocusChange",
     "typescript.check.tscVersion": false,
-    "typescript.check.workspaceVersion": false,
 
     "extensions.autoUpdate": true,
 
     "go.gopath": "/Users/roblou/code/go",
-
-    "npm-intellisense.scanDevDependencies": true,
 
     "vscode-stocks.stockSymbols": [
         "msft"
@@ -86,9 +86,6 @@
     "workbench.activityBar.visible": false,
 
     "workbench.welcome.enabled": true,
-
-    "window.openFilesInNewWindow": "off",
-    "window.openFoldersInNewWindow": "on",
 
     // "debug.inlineValues": true,
 
@@ -114,7 +111,8 @@
 
     "editor.formatOnPaste": true,
 
-    "search.useIgnoreFilesByDefault": false,
+    "search.useIgnoreFilesByDefault": true,
 
-    "typescript.referencesCodeLens.enabled": true
+    "typescript.referencesCodeLens.enabled": true,
+    "window.reopenFolders": "all"
 }
