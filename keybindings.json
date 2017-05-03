@@ -186,11 +186,11 @@
         "when": "editorTextFocus && inDebugMode"
     },
     {
-        "key": "shift+cmd+r",
-        "command": "workbench.debug.viewlet.action.disableAllBreakpoints"
+        "key": "ctrl+shift+cmd+d",
+        "command": "workbench.debug.viewlet.action.toggleBreakpointsActivatedAction"
     },
     {
-        "key": "ctrl+shift+cmd+r",
-        "command": "workbench.debug.viewlet.action.enableAllBreakpoints"
+        "key": "shift+cmd+s",
+        "command": "git.stage"
     }
 ]

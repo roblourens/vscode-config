@@ -1,6 +1,6 @@
 {
-    "window.openFoldersInNewWindow": "on",
-    "window.openFilesInNewWindow": "off",
+    // "window.openFoldersInNewWindow": "on",
+    // "window.openFilesInNewWindow": "off",
 
     "diffEditor.renderSideBySide": false,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -93,8 +93,8 @@
 
     "window.newWindowDimensions": "inherit",
     "workbench.iconTheme": "seti",
-    "editor.wordWrap": "off",
-    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "[Log]": {
         "editor.minimap.enabled": false
@@ -113,6 +113,19 @@
 
     "search.useIgnoreFilesByDefault": true,
 
-    "typescript.referencesCodeLens.enabled": true,
-    "window.reopenFolders": "all"
+    "debug.allowBreakpointsEverywhere": true,
+    "gitlens.codeLens.visibility": "ondemand",
+
+    "files.associations": {
+        "*.tokens": "json",
+        "*.tree": "json"
+    },
+
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false
+    },
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "workbench.colorTheme": "Monokai"
 }
