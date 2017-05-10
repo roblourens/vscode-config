@@ -125,7 +125,7 @@
         "editor.wordWrap": "on",
         "editor.quickSuggestions": false
     },
-    "php.suggest.basic": false,
-    "php.validate.enable": false,
-    "workbench.colorTheme": "Monokai"
+
+    "disableLigatures.mode": "Line",
+    "git.enableSmartCommit": true
 }

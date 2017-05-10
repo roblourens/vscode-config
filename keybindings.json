@@ -16,7 +16,7 @@
 
     { "key": "cmd+0", "command": "workbench.action.zoomReset" },
 
-    { "key": "cmd+shift+g", "command": "workbench.view.git" },
+    { "key": "cmd+shift+g", "command": "workbench.view.scm" },
 
     { "key": "f8", "command": "workbench.action.debug.continue",
         "when": "inDebugMode" },
@@ -192,5 +192,13 @@
     {
         "key": "shift+cmd+s",
         "command": "git.stage"
+    },
+    {
+        "key": "alt+cmd+o",
+        "command": "workbench.action.files.openFileFolder"
+    },
+    {
+        "key": "cmd+o",
+        "command": "workbench.action.quickOpen"
     }
 ]
