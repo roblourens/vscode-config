@@ -8,6 +8,7 @@
     "files.trimTrailingWhitespace": true,
 
     "workbench.editor.showTabs": false,
+    "window.reopenFolders": "one",
 
     "editor.cursorBlinking": "solid",
 
@@ -69,7 +70,7 @@
     "files.autoSave": "onFocusChange",
     "typescript.check.tscVersion": false,
 
-    "extensions.autoUpdate": true,
+    "extensions.autoUpdate": false,
 
     "go.gopath": "/Users/roblou/code/go",
 
@@ -100,8 +101,7 @@
         "editor.minimap.enabled": false
     },
 
-    "window.title": "${dirty} ${activeEditorName}${separator}${rootName}",
-    "window.zoomLevel": 0,
+    "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
 
     "terminal.integrated.scrollback": 10000,
 
@@ -127,5 +127,33 @@
     },
 
     "disableLigatures.mode": "Line",
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "typescript.referencesCodeLens.enabled": false,
+    "editor.snippetSuggestions": "bottom",
+    "typescript.tsserver.debug": true,
+
+    "workbench.settings.openDefaultSettings": false,
+
+    "emmet.useNewEmmet": true,
+
+    "markdown.preview.markEditorSelection": true,
+
+    "typescript.tsserver.log": "verbose",
+
+    "workbench.colorTheme": "Monokai",
+
+    "launch": {
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Default Launch Program",
+                "program": "${file}",
+                "protocol": "inspector"
+            }
+        ]
+    }
 }
