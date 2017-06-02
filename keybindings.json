@@ -200,5 +200,9 @@
     {
         "key": "cmd+o",
         "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+shift+cmd+r",
+        "command": "workbench.action.reloadWindow"
     }
 ]
