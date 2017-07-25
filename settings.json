@@ -8,7 +8,7 @@
     "files.trimTrailingWhitespace": true,
 
     "workbench.editor.showTabs": false,
-    "window.reopenFolders": "one",
+    "window.restoreWindows": "one",
 
     "editor.cursorBlinking": "solid",
 
@@ -63,14 +63,13 @@
     ],
 
     "tslint.run": "onSave",
-    "tslint.enable": false,
 
     "editor.wordBasedSuggestions": false,
 
     "files.autoSave": "onFocusChange",
     "typescript.check.tscVersion": false,
 
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": true,
 
     "go.gopath": "/Users/roblou/code/go",
 
@@ -88,13 +87,13 @@
 
     "workbench.welcome.enabled": true,
 
-    // "debug.inlineValues": true,
+    "debug.inlineValues": true,
 
     "workbench.editor.tabCloseButton": "left",
 
     "window.newWindowDimensions": "inherit",
     "workbench.iconTheme": "seti",
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "[Log]": {
@@ -114,7 +113,7 @@
     "search.useIgnoreFilesByDefault": true,
 
     "debug.allowBreakpointsEverywhere": true,
-    "gitlens.codeLens.visibility": "ondemand",
+    "gitlens.codeLens.enabled": false,
 
     "files.associations": {
         "*.tokens": "json",
@@ -132,28 +131,32 @@
     "php.suggest.basic": false,
     "php.validate.enable": false,
     "typescript.referencesCodeLens.enabled": false,
-    "editor.snippetSuggestions": "bottom",
     "typescript.tsserver.debug": true,
 
-    "workbench.settings.openDefaultSettings": false,
 
     "emmet.useNewEmmet": true,
 
     "markdown.preview.markEditorSelection": true,
 
     "typescript.tsserver.log": "verbose",
-
     "workbench.colorTheme": "Monokai",
 
-    "launch": {
-        "configurations": [
-            {
-                "type": "node",
-                "request": "launch",
-                "name": "Default Launch Program",
-                "program": "${file}",
-                "protocol": "inspector"
-            }
-        ]
-    }
+    "[javascript]": {
+        "launch": {
+            "configurations": [
+                {
+                    "type": "node",
+                    "request": "launch",
+                    "name": "Default Launch Program",
+                    "program": "${file}",
+                    "protocol": "inspector"
+                }
+            ]
+        }
+    },
+
+    "php.executablePath": "/usr/local/Cellar/php71/7.1.4_16/bin/php",
+    "editor.autoIndent": true,
+    "editor.multiCursorModifier": "alt",
+    "extensions.ignoreRecommendations": true,
 }
