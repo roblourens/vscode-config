@@ -6,9 +6,9 @@
 
     { "key": "ctrl+k ctrl+b", "command": "workbench.action.tasks.terminate" },
 
-    { "key": "ctrl+alt+d", "command": "workbench.action.git.globalOpenChange",
+    { "key": "ctrl+alt+d", "command": "git.openChange",
         "when": "editorTextFocus" },
-    { "key": "ctrl+alt+d", "command": "workbench.action.git.globalOpenFile",
+    { "key": "ctrl+alt+d", "command": "git.openFile",
         "when": "textCompareEditorVisible" },
 
     { "key": "cmd+y", "command": "redo",
@@ -35,6 +35,16 @@
         "when": "terminalFocus" },
 
     { "key": "cmd+r", "command": "workbench.action.openRecent" },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen"
+    },
 
     { "key": "cmd+f9", "command": "editor.debug.action.conditionalBreakpoint" },
 
@@ -204,5 +214,15 @@
     {
         "key": "ctrl+shift+cmd+r",
         "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-settings.action.search",
+        "when": "inSettingsEditor"
+    },
+    {
+        "key": "alt+cmd+f",
+        "command": "settings.action.search",
+        "when": ""
     }
 ]
