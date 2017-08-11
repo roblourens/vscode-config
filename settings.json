@@ -1,6 +1,5 @@
 {
-    // "window.openFoldersInNewWindow": "on",
-    // "window.openFilesInNewWindow": "off",
+    "window.openFoldersInNewWindow": "on",
 
     "diffEditor.renderSideBySide": false,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -35,7 +34,7 @@
     "editor.renderIndentGuides": true,
 
     "files.hotExit": "onExitAndWindowClose",
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
 
     // "debug.inlineValues": true,
 
@@ -105,14 +104,5 @@
     "editor.multiCursorModifier": "alt",
     "extensions.ignoreRecommendations": true,
 
-    "workbench.colorTheme": "Monokai",
-
-    "emmet.includeLanguages": {
-        "javascript": "html"
-    },
-
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true
-    }
+    "workbench.colorTheme": "Monokai"
 }
