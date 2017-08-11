@@ -1,108 +1,94 @@
 {
-    "window.openFoldersInNewWindow": "on",
+    "[Log]": {
+        "editor.minimap.enabled": false
+    },
+    "[javascript]": {
+        "launch": {
+            "configurations": [
+                {
+                    "name": "Default Launch Program",
+                    "program": "${file}",
+                    "protocol": "inspector",
+                    "request": "launch",
+                    "type": "node"
+                }
+            ]
+        }
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": false,
+        "editor.wordWrap": "on"
+    },
 
-    "diffEditor.renderSideBySide": false,
+    "debug.allowBreakpointsEverywhere": true,
+
     "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
 
-    "files.trimTrailingWhitespace": true,
+    "disableLigatures.mode": "Line",
 
-    "workbench.editor.showTabs": false,
-    "window.restoreWindows": "one",
-
+    "editor.autoIndent": true,
     "editor.cursorBlinking": "solid",
-
+    "editor.dragAndDrop": true,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.multiCursorModifier": "alt",
+    "editor.renderIndentGuides": true,
+    "editor.wordBasedSuggestions": false,
+    "editor.wordWrap": "off",
+
+    "explorer.openEditors.visible": 0,
+
+    "extensions.autoUpdate": true,
+    "extensions.ignoreRecommendations": true,
+
+    "files.associations": {
+        "*.tokens": "json",
+        "*.tree": "json"
+    },
+    "files.autoSave": "onFocusChange",
+    "files.hotExit": "onExitAndWindowClose",
+    "files.trimTrailingWhitespace": true,
+
+    "git.enableSmartCommit": true,
+    "gitlens.codeLens.enabled": false,
+
+    "go.gopath": "/Users/roblou/code/go",
+
+    "markdown.preview.markEditorSelection": true,
+
+    "php.executablePath": "/usr/local/Cellar/php71/7.1.4_16/bin/php",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+
+    "search.useIgnoreFilesByDefault": true,
+
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.shellArgs.osx": [
+        "-l"
+    ],
 
     "tslint.run": "onSave",
 
-    "editor.wordBasedSuggestions": false,
-
-    "files.autoSave": "onFocusChange",
-
-    "extensions.autoUpdate": true,
-
-    "go.gopath": "/Users/roblou/code/go",
+    "typescript.referencesCodeLens.enabled": false,
+    "typescript.tsserver.log": "verbose",
 
     "vscode-stocks.stockSymbols": [
         "msft"
     ],
     "vscode-stocks.useColors": true,
 
-    "terminal.integrated.shellArgs.osx": ["-l"],
-
-    "editor.renderIndentGuides": true,
-
-    "files.hotExit": "onExitAndWindowClose",
-    "workbench.activityBar.visible": false,
-
-    // "debug.inlineValues": true,
-
-    "workbench.editor.tabCloseButton": "left",
-
     "window.newWindowDimensions": "inherit",
-    "workbench.iconTheme": "seti",
-    "editor.wordWrap": "off",
-    "editor.minimap.enabled": false,
-    "editor.minimap.renderCharacters": false,
-    "[Log]": {
-        "editor.minimap.enabled": false
-    },
-
+    "window.openFoldersInNewWindow": "on",
+    "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
 
-    "terminal.integrated.scrollback": 10000,
-
-    "editor.dragAndDrop": true,
-
-    "explorer.openEditors.visible": 0,
-
-    "editor.formatOnPaste": true,
-
-    "search.useIgnoreFilesByDefault": true,
-
-    "debug.allowBreakpointsEverywhere": true,
-    "gitlens.codeLens.enabled": false,
-
-    "files.associations": {
-        "*.tokens": "json",
-        "*.tree": "json"
-    },
-
-    "[markdown]": {
-        "editor.wordWrap": "on",
-        "editor.quickSuggestions": false
-    },
-
-    "disableLigatures.mode": "Line",
-    "git.enableSmartCommit": true,
-
-    "php.suggest.basic": false,
-    "php.validate.enable": false,
-    "typescript.referencesCodeLens.enabled": false,
-
-    "markdown.preview.markEditorSelection": true,
-
-    "typescript.tsserver.log": "verbose",
-
-    "[javascript]": {
-        "launch": {
-            "configurations": [
-                {
-                    "type": "node",
-                    "request": "launch",
-                    "name": "Default Launch Program",
-                    "program": "${file}",
-                    "protocol": "inspector"
-                }
-            ]
-        }
-    },
-
-    "php.executablePath": "/usr/local/Cellar/php71/7.1.4_16/bin/php",
-    "editor.autoIndent": true,
-    "editor.multiCursorModifier": "alt",
-    "extensions.ignoreRecommendations": true,
-
-    "workbench.colorTheme": "Monokai"
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.editor.showTabs": false,
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.iconTheme": "seti"
 }
