@@ -82,13 +82,13 @@
     "vscode-stocks.useColors": true,
 
     "window.newWindowDimensions": "inherit",
-    "window.openFoldersInNewWindow": "on",
     "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
 
-    "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Monokai",
+    "workbench.activityBar.visible": false,
     "workbench.editor.showTabs": false,
     "workbench.editor.tabCloseButton": "left",
-    "workbench.iconTheme": "seti"
+    "workbench.iconTheme": "seti",
+    "git.discardAllScope": "all"
 }
