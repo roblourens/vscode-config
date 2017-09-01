@@ -85,10 +85,9 @@
     "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
 
-    "workbench.colorTheme": "Monokai",
     "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Monokai",
     "workbench.editor.showTabs": false,
     "workbench.editor.tabCloseButton": "left",
-    "workbench.iconTheme": "seti",
-    "git.discardAllScope": "all"
+    "workbench.iconTheme": "seti"
 }
