@@ -53,6 +53,7 @@
     "files.hotExit": "onExitAndWindowClose",
     "files.trimTrailingWhitespace": true,
 
+    "git.enableCommitSigning": true,
     "git.enableSmartCommit": true,
     "gitlens.codeLens.enabled": false,
 
