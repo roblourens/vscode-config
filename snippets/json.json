@@ -1,9 +1,19 @@
 {
-	"Print to console": {
+	"debugserver": {
 		"prefix": "debug",
 		"body": [
 			"\"debugServer\": 4712$1,"
 		],
 		"description": "Insert debugServer statement"
+	},
+	"testQuery": {
+		"prefix": "testQuery",
+		"body": [
+			"{",
+			"    \"queryString\": \"$1\",",
+			"    \"resultScores\": {$2",
+			"    }",
+			"}"
+		]
 	}
 }

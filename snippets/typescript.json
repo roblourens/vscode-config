@@ -27,5 +27,76 @@
 		"prefix": "time",
 		"body": "console.log(`\\${Date.now()/1000}: $1`);",
 		"description": "console.log + the time"
+	},
+
+
+	"gdprCommonProperty": {
+		"prefix": "gdprcommon",
+		"body": [
+			"// __GDPR__COMMON__ \"common.${1:propertyName}\" : { \"endPoint\": \"${2|none,SqmUserId,SqmMachineId|}\", \"classification\": \"${3|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${4|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }\n"
+		],
+		"description": "GDPR - declare a common property"
+	},
+	"gdprProperty": {
+		"prefix": "gdprproperty",
+		"body": [
+			"\"${1:propertyName}\": { \"endPoint\": \"${3|none,SqmUserId,SqmMachineId|}\", \"classification\": \"${4|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${5|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }$2$0"
+		],
+		"description": "GDPR - declare a property"
+	},
+	"gdprInline": {
+		"prefix": "gdprinline",
+		"body": [
+			"\"${1:propertyName}\": { \"\\${inline}\": [ \"\\${${2:FragmentName}}\"$3 ] }$0"
+		],
+		"description": "GDPR - inline fragments"
+	},
+	"gdprInclude": {
+		"prefix": "gdprinclude",
+		"body": [
+			"\"\\${include}\": [ \"\\${${1:FragmentName}}\"$2 ]$0"
+		],
+		"description": "GDPR - include fragments"
+	},
+	"gdprWildcard": {
+		"prefix": "gdprwildcard",
+		"body": [
+			"\"\\${wildcard}\": [",
+			"   {",
+			"      \"\\${prefix}\": \"${1:prefix}\",",
+			"      \"\\${classification}\": { \"endPoint\": \"${3|none,SqmUserId,SqmMachineId|}\", \"classification\": \"${4|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${5|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }",
+			"   }",
+			"]$2$0"
+		],
+		"description": "GDPR - wildcard"
+	},
+	"gdprFragmentReference": {
+		"prefix": "gdprfragmentreference",
+		"body": [
+			"\"\\${${1:FragmentName}}\"$0"
+		],
+		"description": "GDPR - fragment reference"
+	},
+	"gdprEvent": {
+		"prefix": "gdprevent",
+		"body": [
+			"/* __GDPR__",
+			"   \"${1:eventName}\" : {",
+			"      \"${2:propertyName}\" : { \"classification\": \"${5|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${6|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }$3$0",
+			"   }",
+			" */"
+		],
+		"description": "GDPR - declare an event"
+	},
+	"gdprFragment": {
+		"prefix": "gdprfragment",
+		"body": [
+			"/* __GDPR__FRAGMENT__",
+			"   \"${1:fragmentName}\" : {",
+			"      \"${2:propertyName}\" : { \"endPoint\": \"${4|none,SqmUserId,SqmMachineId|}\", \"classification\": \"${5|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${6|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }$3$0",
+			"   }",
+			" */\n"
+		],
+		"description": "GDPR - declare a fragment"
 	}
 }

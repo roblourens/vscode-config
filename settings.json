@@ -78,7 +78,7 @@
     "typescript.tsserver.log": "verbose",
 
     "vscode-stocks.stockSymbols": [
-        "msft"
+        // "msft"
     ],
     "vscode-stocks.useColors": true,
 
@@ -86,8 +86,9 @@
     "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
 
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Monokai",
+    "workbench.editor.labelFormat": "medium",
     "workbench.editor.showTabs": false,
     "workbench.editor.tabCloseButton": "left",
     "workbench.iconTheme": "seti"
