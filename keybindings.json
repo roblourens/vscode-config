@@ -241,10 +241,6 @@
         "when": "inDebugMode"
     },
     {
-        "key": "shift+cmd+f",
-        "command": "workbench.action.findInFiles"
-    },
-    {
         "key": "alt+cmd+p",
         "command": "editor.action.inspectTMScopes",
         "when": "editorTextFocus"
@@ -252,5 +248,10 @@
     {
         "key": "cmd+l",
         "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
