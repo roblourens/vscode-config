@@ -37,7 +37,6 @@
     "editor.minimap.renderCharacters": false,
     "editor.multiCursorModifier": "alt",
     "editor.renderIndentGuides": true,
-    "editor.wordBasedSuggestions": false,
     "editor.wordWrap": "off",
 
     "explorer.openEditors.visible": 0,
@@ -53,7 +52,7 @@
     "files.hotExit": "onExitAndWindowClose",
     "files.trimTrailingWhitespace": true,
 
-    "git.enableCommitSigning": true,
+    // "git.enableCommitSigning": true,
     "git.enableSmartCommit": true,
     "gitlens.codeLens.enabled": false,
 
@@ -62,8 +61,6 @@
     "markdown.preview.markEditorSelection": true,
 
     "php.executablePath": "/usr/local/Cellar/php71/7.1.4_16/bin/php",
-    "php.suggest.basic": false,
-    "php.validate.enable": false,
 
     "search.useIgnoreFilesByDefault": true,
 
@@ -86,10 +83,16 @@
     "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
 
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Monokai",
     "workbench.editor.labelFormat": "medium",
     "workbench.editor.showTabs": false,
     "workbench.editor.tabCloseButton": "left",
-    "workbench.iconTheme": "seti"
+    "workbench.iconTheme": "seti",
+    "workbench.panel.location": "bottom",
+
+    // "workbench.settings.experimentalFuzzySearchEndpoint": "https://vscodesearch6.search.windows.net/indexes/vscodeindex/docs",
+    // "workbench.settings.experimentalFuzzySearchKey": "F3F22B32DD89DDA74B1935ED0BE6FCBA",
+    "workbench.settings.experimentalFuzzySearchEndpoint": "https://vscode.search.windows.net/indexes/vscodeindex/docs",
+    "workbench.settings.experimentalFuzzySearchKey": "A82B34429D4605B861769137F6969B6F"
 }
