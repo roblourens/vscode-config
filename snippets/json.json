@@ -11,7 +11,8 @@
 		"body": [
 			"{",
 			"    \"queryString\": \"$1\",",
-			"    \"resultScores\": {$2",
+			"    \"_comment\": \"$2\",",
+			"    \"resultScores\": {$3",
 			"    }",
 			"}"
 		]
