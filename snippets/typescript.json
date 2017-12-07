@@ -13,8 +13,8 @@
 		],
 		"description": "()"
 	},
-	"log": {
-		"prefix": "log",
+	"clog": {
+		"prefix": "clog",
 		"body": "console.log(`$1`);",
 		"description": "console.log"
 	},
