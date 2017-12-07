@@ -24,9 +24,9 @@
         "when": "inDebugMode" },
     { "key": "f5", "command": "workbench.action.debug.start" },
 
-    { "key": "f7", "command": "editor.action.marker.next",
+    { "key": "f6", "command": "editor.action.marker.next",
         "when": "editorFocus && !editorReadonly" },
-    { "key": "shift+f7", "command": "editor.action.marker.prev",
+    { "key": "shift+f6", "command": "editor.action.marker.prev",
         "when": "editorFocus && !editorReadonly" },
 
     { "key": "ctrl+`", "command": "workbench.action.terminal.focus",
