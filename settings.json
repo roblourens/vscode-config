@@ -20,12 +20,17 @@
         "editor.wordWrap": "on"
     },
 
-    "debug.allowBreakpointsEverywhere": true,
+    "azure.resourceFilter": [
+        "72f988bf-86f1-41af-91ab-2d7cd011db47/9b16b0df-65b6-46d3-b9c9-e4fbc86b1fa7"
+    ],
+
+	"debug.allowBreakpointsEverywhere": true,
 
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
 
     "disableLigatures.mode": "Line",
+    "docker.showExplorer": false,
 
     "editor.autoIndent": true,
     "editor.cursorBlinking": "solid",
@@ -52,17 +57,27 @@
     "files.hotExit": "onExitAndWindowClose",
     "files.trimTrailingWhitespace": true,
 
-    // "git.enableCommitSigning": true,
+    "git.autofetch": true,
     "git.enableSmartCommit": true,
     "gitlens.codeLens.enabled": false,
+
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
 
     "go.gopath": "/Users/roblou/code/go",
 
     "markdown.preview.markEditorSelection": true,
 
     "php.executablePath": "/usr/local/Cellar/php71/7.1.4_16/bin/php",
-
-    "search.useIgnoreFilesByDefault": true,
+    "php.suggest.basic": false,
 
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.shellArgs.osx": [
@@ -74,25 +89,20 @@
     "typescript.referencesCodeLens.enabled": false,
     "typescript.tsserver.log": "verbose",
 
-    "vscode-stocks.stockSymbols": [
-        // "msft"
-    ],
-    "vscode-stocks.useColors": true,
-
     "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
 
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Monokai",
     "workbench.editor.labelFormat": "medium",
     "workbench.editor.showTabs": false,
     "workbench.editor.tabCloseButton": "left",
-    "workbench.iconTheme": "seti",
-    "workbench.panel.location": "bottom",
 
-    // "workbench.settings.experimentalFuzzySearchEndpoint": "https://vscodesearch6.search.windows.net/indexes/vscodeindex/docs",
-    // "workbench.settings.experimentalFuzzySearchKey": "F3F22B32DD89DDA74B1935ED0BE6FCBA",
-    "workbench.settings.experimentalFuzzySearchEndpoint": "https://vscode.search.windows.net/indexes/vscodeindex/docs",
-    "workbench.settings.experimentalFuzzySearchKey": "A82B34429D4605B861769137F6969B6F"
+
+
+    // "workbench.editor.showIcons": false,
+	"workbench.iconTheme": "seti",
+
+	"debug.showInStatusBar": "always"
 }
