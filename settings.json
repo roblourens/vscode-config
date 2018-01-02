@@ -1,6 +1,7 @@
 {
     "[Log]": {
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": false,
+        "editor.fontLigatures": false
     },
     "[javascript]": {
         "launch": {
@@ -93,16 +94,18 @@
     "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
 
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Monokai",
     "workbench.editor.labelFormat": "medium",
     "workbench.editor.showTabs": false,
     "workbench.editor.tabCloseButton": "left",
 
+    // "workbench.settings.naturalLanguageSearchEndpoint": "https://vscodeextension.search.windows.net/indexes/vscodeindex/docs",
+    // "workbench.settings.naturalLanguageSearchKey": "400385A37E7AA311A97B3D3CF1EE346E",
+	"workbench.settings.enableNaturalLanguageSearchFeedback": true,
+    "workbench.settings.naturalLanguageSearchAutoIngestFeedback": true,
 
-
-    // "workbench.editor.showIcons": false,
-	"workbench.iconTheme": "seti",
-
-	"debug.showInStatusBar": "always"
+    "debug.showInStatusBar": "always",
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false
 }
