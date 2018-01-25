@@ -24,10 +24,10 @@
         "when": "inDebugMode" },
     { "key": "f5", "command": "workbench.action.debug.start" },
 
-    { "key": "f6", "command": "editor.action.marker.next",
-        "when": "editorFocus && !editorReadonly" },
-    { "key": "shift+f6", "command": "editor.action.marker.prev",
-        "when": "editorFocus && !editorReadonly" },
+    // { "key": "f6", "command": "editor.action.marker.next",
+    //     "when": "editorFocus && !editorReadonly" },
+    // { "key": "shift+f6", "command": "editor.action.marker.prev",
+    //     "when": "editorFocus && !editorReadonly" },
 
     { "key": "ctrl+`", "command": "workbench.action.terminal.focus",
         "when": "!terminalFocus" },
@@ -253,5 +253,13 @@
         "key": "shift+alt+f",
         "command": "-editor.action.formatDocument",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+q cmd+q",
+        "command": "workbench.action.quit"
+    },
+    {
+        "key": "cmd+q",
+        "command": "-workbench.action.quit"
     }
 ]

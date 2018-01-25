@@ -16,6 +16,9 @@
             ]
         }
     },
+    "[plaintext]": {
+        "editor.fontLigatures": false
+    },
     "[markdown]": {
         "editor.quickSuggestions": false,
         "editor.wordWrap": "on"
@@ -78,12 +81,14 @@
     "markdown.preview.markEditorSelection": true,
 
     "php.executablePath": "/usr/local/Cellar/php71/7.1.4_16/bin/php",
-    "php.suggest.basic": false,
+    // "php.suggest.basic": false,
+    "php.validate.enable": false,
 
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.shellArgs.osx": [
         "-l"
-    ],
+     ],
+    "terminal.integrated.shell.osx": "/bin/zsh",
 
     "tslint.run": "onSave",
 
@@ -94,18 +99,20 @@
     "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
 
-    "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Monokai",
     "workbench.editor.labelFormat": "medium",
     "workbench.editor.showTabs": false,
+
+
     "workbench.editor.tabCloseButton": "left",
 
-    // "workbench.settings.naturalLanguageSearchEndpoint": "https://vscodeextension.search.windows.net/indexes/vscodeindex/docs",
-    // "workbench.settings.naturalLanguageSearchKey": "400385A37E7AA311A97B3D3CF1EE346E",
 	"workbench.settings.enableNaturalLanguageSearchFeedback": true,
     "workbench.settings.naturalLanguageSearchAutoIngestFeedback": true,
 
     "debug.showInStatusBar": "always",
     "window.zoomLevel": 0,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+
+    "workbench.activityBar.visible": false,
+    "liveshare.showLauncherError": false
 }
