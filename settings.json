@@ -101,7 +101,6 @@
     "workbench.editor.labelFormat": "medium",
     "workbench.editor.showTabs": false,
 
-
     "workbench.editor.tabCloseButton": "left",
 
 	"workbench.settings.enableNaturalLanguageSearchFeedback": true,
@@ -110,6 +109,8 @@
     "debug.showInStatusBar": "always",
     "window.zoomLevel": 0,
     "explorer.confirmDragAndDrop": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "search.smartCase": true,
 
     "workbench.activityBar.visible": false,
     "liveshare.showLauncherError": false
