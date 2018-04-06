@@ -261,5 +261,24 @@
     {
         "key": "cmd+q",
         "command": "-workbench.action.quit"
+    },
+    {
+        "key": "shift+alt+cmd+]",
+        "command": "editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+'",
+        "command": "workbench.action.quickOpenTerm"
+    },
+    {
+        "key": "cmd+'",
+        "command": "workbench.action.quickOpenNavigateNextInTerminalPicker",
+        "when": "inTerminalPicker"
+    },
+    {
+        "key": "shift+cmd+'",
+        "command": "workbench.action.quickOpenNavigatePreviousInTerminalPicker",
+        "when": "inTerminalPicker"
     }
 ]

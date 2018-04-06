@@ -33,14 +33,14 @@
 	"gdprCommonProperty": {
 		"prefix": "gdprcommon",
 		"body": [
-			"// __GDPR__COMMON__ \"common.${1:propertyName}\" : { \"endPoint\": \"${2|none,SqmUserId,SqmMachineId|}\", \"classification\": \"${3|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${4|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }\n"
+			"// __GDPR__COMMON__ \"common.${1:propertyName}\" : { \"classification\": \"${3|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${4|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }\n"
 		],
 		"description": "GDPR - declare a common property"
 	},
 	"gdprProperty": {
 		"prefix": "gdprproperty",
 		"body": [
-			"\"${1:propertyName}\": { \"endPoint\": \"${3|none,SqmUserId,SqmMachineId|}\", \"classification\": \"${4|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${5|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }$2$0"
+			"\"${1:propertyName}\": { \"classification\": \"${4|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${5|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }$2$0"
 		],
 		"description": "GDPR - declare a property"
 	},
@@ -64,7 +64,7 @@
 			"\"\\${wildcard}\": [",
 			"   {",
 			"      \"\\${prefix}\": \"${1:prefix}\",",
-			"      \"\\${classification}\": { \"endPoint\": \"${3|none,SqmUserId,SqmMachineId|}\", \"classification\": \"${4|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${5|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }",
+			"      \"\\${classification}\": { \"classification\": \"${4|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${5|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }",
 			"   }",
 			"]$2$0"
 		],
@@ -93,7 +93,7 @@
 		"body": [
 			"/* __GDPR__FRAGMENT__",
 			"   \"${1:fragmentName}\" : {",
-			"      \"${2:propertyName}\" : { \"endPoint\": \"${4|none,SqmUserId,SqmMachineId|}\", \"classification\": \"${5|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${6|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }$3$0",
+			"      \"${2:propertyName}\" : { \"classification\": \"${5|SystemMetaData,CustomerContent,EndUserPseudonymizedInformation,PublicPersonalData,PublicNonPersonalData|}\", \"purpose\": \"${6|FeatureInsight,PerformanceAndHealth,BusinessInsight,SecurityAndAuditing|}\" }$3$0",
 			"   }",
 			" */\n"
 		],

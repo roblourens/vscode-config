@@ -3,18 +3,16 @@
         "editor.minimap.enabled": false,
         "editor.fontLigatures": false
     },
-    "[javascript]": {
-        "launch": {
-            "configurations": [
-                {
-                    "name": "Default Launch Program",
-                    "program": "${file}",
-                    "protocol": "inspector",
-                    "request": "launch",
-                    "type": "node"
-                }
-            ]
-        }
+    "launch": {
+        "configurations": [
+            {
+                "name": "Default Launch Program",
+                "program": "${file}",
+                "protocol": "inspector",
+                "request": "launch",
+                "type": "node"
+            }
+        ]
     },
     "[plaintext]": {
         "editor.fontLigatures": false
