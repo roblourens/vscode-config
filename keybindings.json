@@ -280,5 +280,14 @@
         "key": "shift+cmd+'",
         "command": "workbench.action.quickOpenNavigatePreviousInTerminalPicker",
         "when": "inTerminalPicker"
+    },
+    {
+        "key": "cmd+f5",
+        "command": "workbench.action.debug.selectandstart"
+    },
+    {
+        "key": "shift+cmd+h",
+        "command": "-html.preview",
+        "when": "!terminalFocus"
     }
 ]

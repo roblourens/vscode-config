@@ -3,17 +3,21 @@
         "editor.minimap.enabled": false,
         "editor.fontLigatures": false
     },
-    "launch": {
-        "configurations": [
-            {
-                "name": "Default Launch Program",
-                "program": "${file}",
-                "protocol": "inspector",
-                "request": "launch",
-                "type": "node"
-            }
-        ]
+    // "launch": {
+    //     "configurations": [
+    //         {
+    //             "name": "Default Launch Program",
+    //             "program": "${file}",
+    //             "protocol": "inspector",
+    //             "request": "launch",
+    //             "type": "node"
+    //         }
+    //     ]
+    // },
+    "workbench.colorCustomizations": {
+
     },
+
     "[plaintext]": {
         "editor.fontLigatures": false
     },
@@ -28,7 +32,7 @@
 
 	"debug.allowBreakpointsEverywhere": true,
 
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "diffEditor.renderSideBySide": false,
 
     "disableLigatures.mode": "Line",
@@ -55,7 +59,7 @@
         "*.tokens": "json",
         "*.tree": "json"
     },
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "onFocusChange"   ,
     "files.hotExit": "onExitAndWindowClose",
     "files.trimTrailingWhitespace": true,
 
@@ -70,6 +74,8 @@
         "suppressGitVersionWarning": false,
         "suppressLineUncommittedWarning": false,
         "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
         "suppressUpdateNotice": true,
         "suppressWelcomeNotice": false
     },
@@ -96,8 +102,6 @@
     "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
-
-    "workbench.colorTheme": "Monokai",
     "workbench.editor.labelFormat": "medium",
     "workbench.editor.showTabs": false,
 
@@ -113,5 +117,16 @@
     "search.smartCase": true,
 
     "workbench.activityBar.visible": false,
-    "liveshare.showLauncherError": false
+    "liveshare.showLauncherError": false,
+    "zenMode.centerLayout": true,
+    "workbench.colorTheme": "Monokai",
+
+    "beautify.config": {
+        "css": {
+            "space_around_combinator": true,
+            "indent_with_tabs": true
+        }
+    },
+
+    "gitlens.blame.format": "${message|30?} ${agoOrDate|14-} ${author|6-}"
 }
