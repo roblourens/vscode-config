@@ -3,6 +3,7 @@
         "editor.minimap.enabled": false,
         "editor.fontLigatures": false
     },
+
     // "launch": {
     //     "configurations": [
     //         {
@@ -14,13 +15,11 @@
     //         }
     //     ]
     // },
-    "workbench.colorCustomizations": {
-
-    },
-
     "[plaintext]": {
         "editor.fontLigatures": false
     },
+    "editor.fontFamily": "Fira Code",
+    "search.useIgnoreFiles": true,
     "[markdown]": {
         "editor.quickSuggestions": false,
         "editor.wordWrap": "on"
@@ -29,19 +28,14 @@
     "azure.resourceFilter": [
         "72f988bf-86f1-41af-91ab-2d7cd011db47/9b16b0df-65b6-46d3-b9c9-e4fbc86b1fa7"
     ],
-
-	"debug.allowBreakpointsEverywhere": true,
-
-    "diffEditor.ignoreTrimWhitespace": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
-
     "disableLigatures.mode": "Line",
     "docker.showExplorer": false,
-
     "editor.autoIndent": true,
     "editor.cursorBlinking": "solid",
     "editor.dragAndDrop": true,
-    "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
@@ -49,24 +43,20 @@
     "editor.multiCursorModifier": "alt",
     "editor.renderIndentGuides": true,
     "editor.wordWrap": "off",
-
-    "explorer.openEditors.visible": 0,
-
+    // "explorer.openEditors.visible": 0,
     "extensions.autoUpdate": true,
     "extensions.ignoreRecommendations": true,
-
+    "search.enableSearchProviders": true,
+    "search.followSymlinks": true,
     "files.associations": {
         "*.tokens": "json",
         "*.tree": "json"
     },
-    "files.autoSave": "onFocusChange"   ,
     "files.hotExit": "onExitAndWindowClose",
     "files.trimTrailingWhitespace": true,
-
     "git.autofetch": true,
     "git.enableSmartCommit": true,
     "gitlens.codeLens.enabled": false,
-
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -79,54 +69,64 @@
         "suppressUpdateNotice": true,
         "suppressWelcomeNotice": false
     },
-
     "go.gopath": "/Users/roblou/code/go",
-
     "markdown.preview.markEditorSelection": true,
-
     "php.executablePath": "/usr/local/Cellar/php71/7.1.4_16/bin/php",
     // "php.suggest.basic": false,
-    "php.validate.enable": false,
-
+    // "php.validate.enable": false,
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.shellArgs.osx": [
         "-l"
-     ],
+    ],
     "terminal.integrated.shell.osx": "/bin/zsh",
-
     "tslint.run": "onSave",
-
     "typescript.referencesCodeLens.enabled": false,
     "typescript.tsserver.log": "verbose",
-
-    "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "one",
     "window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
     "workbench.editor.labelFormat": "medium",
-    "workbench.editor.showTabs": false,
-
+    // "workbench.editor.showTabs": false,
     "workbench.editor.tabCloseButton": "left",
-
-	"workbench.settings.enableNaturalLanguageSearchFeedback": true,
+    "workbench.settings.enableNaturalLanguageSearchFeedback": true,
     "workbench.settings.naturalLanguageSearchAutoIngestFeedback": true,
-
     "debug.showInStatusBar": "always",
     "window.zoomLevel": 0,
     "explorer.confirmDragAndDrop": false,
-    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.suggestSelection": "first",
     "search.smartCase": true,
-
     "workbench.activityBar.visible": false,
     "liveshare.showLauncherError": false,
     "zenMode.centerLayout": true,
-    "workbench.colorTheme": "Monokai",
-
     "beautify.config": {
         "css": {
             "space_around_combinator": true,
             "indent_with_tabs": true
         }
     },
+    "spotify.showLyricsButton": true,
+    "spotify.showPlayPauseButton": false,
+    "spotify.showNextButton": false,
+    "spotify.showPreviousButton": false,
+    "spotify.showMuteUnmuteVolumeButton": false,
+    "gitlens.blame.format": "${message|30?} ${agoOrDate|14-} ${author|6-}",
+    "gitlens.keymap": "alternate",
+    "search.location": "sidebar",
+    "gitlens.historyExplorer.enabled": true,
+    "window.newWindowDimensions": "maximized",
+    "workbench.editor.closeEmptyGroups": true,
+    // "files.autoSave": "onFocusChange",
+    "workbench.sideBar.location": "right",
+    "editor.matchBrackets": true,
 
-    "gitlens.blame.format": "${message|30?} ${agoOrDate|14-} ${author|6-}"
+    "debug.toolBarLocation": "docked",
+    "files.autoSave": "onFocusChange",
+    "workbench.tree.horizontalScrolling": false,
+    "search.quickOpen.includeSymbols": true,
+    "searchRipgrep.enable": true,
+    "workbench.colorTheme": "Monokai",
+    "explorer.openEditors.visible": 5,
+    "editor.accessibilitySupport": "auto",
+    "editor.renderWhitespace": "none",
+    "editor.fontSize": 12,
+    "workbench.editor.showTabs": false
 }

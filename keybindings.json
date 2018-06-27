@@ -88,16 +88,6 @@
     },
 
     {
-        "key": "ctrl+alt+left",
-        "command": "subwordNavigation.cursorSubwordLeft",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+right",
-        "command": "subwordNavigation.cursorSubwordRight",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+shift+left",
         "command": "subwordNavigation.cursorSubwordLeftSelect",
         "when": "editorTextFocus"
@@ -289,5 +279,17 @@
         "key": "shift+cmd+h",
         "command": "-html.preview",
         "when": "!terminalFocus"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "outline.focus"
+    },
+    {
+        "key": "cmd+,",
+        "command": "workbench.action.openSettings2"
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "workbench.debug.action.focusCallStackView"
     }
 ]

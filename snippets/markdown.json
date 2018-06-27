@@ -1,0 +1,30 @@
+{
+	"chrome-debug": {
+		"prefix": "chrome-debug",
+		"body": [
+			"[#$1](https://github.com/microsoft/vscode-chrome-debug/issues/$1)",
+		],
+		"description": "Changelog entry for chrome-debug"
+	},
+	"core": {
+	    "prefix": "core",
+	    "body": [
+	        "[Microsoft/vscode-chrome-debug-core#$1](https://github.com/microsoft/vscode-chrome-debug-core/issues/$1)",
+	    ],
+	    "description": "Changelog entry for chrome-debug-core"
+	},
+	"vscode": {
+		"prefix": "vscode",
+		"body": [
+			"[Microsoft/vscode#$1](https://github.com/microsoft/vscode/issues/$1)",
+		],
+		"description": "Changelog entry for vscode"
+	},
+	"vscode-node-debug2": {
+	    "prefix": "node-debug2",
+	    "body": [
+	        "[Microsoft/vscode-node-debug2#$1](https://github.com/microsoft/vscode-node-debug2/issues/$1)",
+	    ],
+	    "description": "Changelog entry for vscode-node-debug2"
+	}
+}
